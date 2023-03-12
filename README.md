@@ -19,4 +19,4 @@
 * Investigated the social impacts of implementing our prediction model, to ensure accountability
 * Designed an interactive website for users to perform their own prediction, and view historical trends of environmental indicators
 
-![](/images/cropyield_graph.PNG.jpg)(https://www.youtube.com/watch?v=wPKuuMJjh8A)
+[![](/images/cropyield_graph.PNG.jpg)](https://www.youtube.com/watch?v=wPKuuMJjh8A)
