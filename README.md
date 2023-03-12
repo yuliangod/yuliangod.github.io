@@ -1,6 +1,6 @@
 # Yu Liang Portfolio
 
-# [Project 1: SGX Screener App, Software Developer](https://github.com/yuliangod/Stonks2) 
+# [Project 1: SGX Screener App](https://github.com/yuliangod/Stonks2) 
 * Extracted relevant financial information from SGX of close to 700 stocks through webscrapping 
 * Analysed the financial information extracted from SGX using Python to apply discounted cash flow valuation to estimate the fair value of various stocks
 * Designed the workflow and user interface of the app to display the potential of different SGX stocks for investment purposes 
