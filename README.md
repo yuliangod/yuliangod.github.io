@@ -1,7 +1,7 @@
 # Yu Liang Portfolio
 
 # [Project 1: SGX Screener App](https://github.com/yuliangod/Stonks2) 
-* Extracted relevant financial information from SGX of close to 700 stocks through webscrapping 
+* Extracted relevant financial information from SGX of close to 700 stocks through web scraping 
 * Analysed the financial information extracted from SGX using Python to apply discounted cash flow valuation to estimate the fair value of various stocks
 * Designed the workflow and user interface of the app to display the potential of different SGX stocks for investment purposes 
 
@@ -15,7 +15,7 @@
 [![](/images/cropyield_yt.png)](https://www.youtube.com/watch?v=wPKuuMJjh8A)
 
 # [Project 3: FundSuperMart Funds Screener](https://github.com/yuliangod/Stonks2) 
-* Extracted price history of more than 1700 funds displayed on the FSM website through webscraping
+* Extracted price history of more than 1700 funds displayed on the FSM website through web scraping
 * Calculated the risk versus returns of those funds and displayed the results on a interactive HTML website
 
 ![](/images/risk-return.png)
