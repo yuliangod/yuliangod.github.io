@@ -20,4 +20,10 @@
 
 ![](/images/risk-return.png)
 
+# [Project 4: Flexi-Q](http://asd.courses.sutd.edu.sg/dti-teams/project-part-4-53/) 
+* Designed an aesthetic solution to improve the queueing experience of around 100 DBS office workers in the indoor atrium of DBS Asia Hub
+* Built a physical prototype to demonstrate the ergonomics and practicality of the product
+* Created a wireless charger to improve convenience of phone charging while utilising Flexi-Q
+* Performed a life-cycle analysis to evaluate the environmental impacts of Flexi-Q
 
+[![](/images/flexi-Q_yt.png)](https://youtu.be/6Xm1JVIrAPU)
