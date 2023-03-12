@@ -7,16 +7,17 @@
 
 ![](/images/SGXApp_poster.jpg)
 
-# [Project 2: FundSuperMart Funds Screener](https://github.com/yuliangod/Stonks2) 
-* Extracted price history of more than 1700 funds displayed on the FSM website through webscraping
-* Calculated the risk versus returns of those funds and displayed the results on a interactive HTML website
-
-![](/images/risk-return.png)
-
-
 # [Project 2: Crop Yield Prediciton](https://github.com/yuliangod/DDW-2D-Term-3-master) 
 * Developed a multiple linear regression model to predict crop yield in the United States using environmental indicators
 * Investigated the social impacts of implementing our prediction model, to ensure accountability
 * Designed an interactive website for users to perform their own prediction, and view historical trends of environmental indicators
 
 [![](/images/cropyield_yt.png)](https://www.youtube.com/watch?v=wPKuuMJjh8A)
+
+# [Project 3: FundSuperMart Funds Screener](https://github.com/yuliangod/Stonks2) 
+* Extracted price history of more than 1700 funds displayed on the FSM website through webscraping
+* Calculated the risk versus returns of those funds and displayed the results on a interactive HTML website
+
+![](/images/risk-return.png)
+
+
