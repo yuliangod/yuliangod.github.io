@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SGX Screener App</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <a href="../index.html">
+            <img
+              src="../assets/png/yu-liang.png"
+              alt="Yu Liang Logo Image"
+              class="header__logo-img"
+            />
+            </a> 
+          </div>
+          <a href="../index.html">
+          <span class="header__logo-sub">Yu Liang</span>
+          </a>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="../index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="../assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="../assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="../index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Project 1: SGX Screener App</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A screener app for quick analysis of SGX stocks, with fair value calculations based off Professor Aswath Damodaran's discounted cash flow model,
+            and functionality such as a watchlist and search bar for convenience.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://github.com/yuliangod/Stonks2" class="btn btn--bg" target="_blank">Code Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="../assets/jpg/SGXApp_poster.jpg"
+              alt="SGX App Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                There are close to 700 SGX stocks listed online, which take a long time to individually analyse. 
+                However, not all stocks are worth analysing due to certain characteristics, hence this app aims to 
+                provide better insight on stocks with potential.
+              </p>
+            </div>
+            <!-- Data Collection -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Data Collection</h3>
+              <p class="project-details__desc-para">
+                Webscrape financial statements and currency of all stock listed on SGX website
+              </p>
+            </div>
+            <!-- Data Analysis -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Data Analysis</h3>
+              <p class="project-details__desc-para">
+                Fair value calculation based off <a class="project-details__content-link" href="https://youtube.com/playlist?list=PLUkh9m2BorqlJsEfix7R9jtSXClFZhGvC"> Professor Aswath Damodaran's</a> discounted cash flow model
+              </p>
+            </div>
+            <!-- Data Visualisation -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Data Visualisation</h3>
+              <p class="project-details__desc-para">
+                <b><u>Features</u></b>
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    Next and back buttons to look through companies ordered by estimated fair value
+                    Like button to add interesting companies to a watchlist
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Watchlist: View interested companies, can either remove or view page of the company
+                    Search bar within watchlist to directly jump to a particular company
+                  </li>
+                </ul>
+              </p>
+              <p class="project-details__desc-para">
+                <b><u>Functions</u></b>
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    plot_chart: plot relevant graphs
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    generate_info_dict: generate a dictionary containing relevant information for investment analysis
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    update_main_frame: display charts and information from plot_chart and generate_info_dict on the app
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    update_main_frame: display charts and information from plot_chart and generate_info_dict on the app
+                  </li>
+                </ul>
+              </p>
+              <p class="project-details__desc-para">
+              <b>Code written with object oriented programming, only the above functions have to be updated to change the layout of the app</b>
+              <br>
+              <ul>
+                <li class="projects__row-content-desc-list">
+                next, like, watchlist, settings (WIP): for functionality of buttons
+                </li>
+              </p>
+              <p class="project-details__desc-para">
+                <b><u>Inputs</u></b>
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    fcff_df, sgx_df: dataframe containing relevant information to be displayed within app
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Future plans: input in a general dataframe, and choose which stats to show within app
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">Tkinter</div>
+                <div class="skills__skill">Selenium</div>
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Object Oriented Programming</div>
+                <div class="skills__skill">UI/UX</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <!--
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              -->
+              <a
+                href="https://github.com/yuliangod/Stonks2"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="../assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="../assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <!--
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="../assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="../assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="../assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+              -->
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Yu Liang</h4>
+            <p class="main-footer__short-desc">
+              Personal Website
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Template by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
