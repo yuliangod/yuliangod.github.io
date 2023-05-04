@@ -168,7 +168,7 @@
             This inspired me to want to understand how these systems work, and how to solve these problems efficiently. 
             Solving these problems involves making important decisions as well, and I want to be able to use data to make better decisions. 
             <br><br>
-            I recently finished an industry project to create a profitable property model for a property consultant startup, The Right Move. 
+            I recently completed an industry project to create a profitable property model for a property consultant startup, The Right Move. 
             I also developed an app to analyse stocks on SGX by scraping data from their website, running calculations on it, 
             and displaying the results in an app that is easy to navigate through.
             <br><br>
@@ -211,6 +211,7 @@
               <div class="skills__skill">HTML</div>
               <div class="skills__skill">CSS</div>
               <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Julia</div>
               <div class="skills__skill">Data Analysis</div>
               <div class="skills__skill">Consulting</div>
               <div class="skills__skill">Math Modelling</div>
@@ -236,18 +237,52 @@
 
         <div class="projects__content">
 
+          <!-- Property Forecasting Model Project -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/property-forecasting-model/TRM Logo.png"
+                alt="The Right Move logo"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 1: Property Forecasting Model</h3>
+              <p class="projects__row-content-desc">
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    Collaborated with a property consultancy company: The Right Move, to develop a model to predict future property prices of condominiums in District 15
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Consulted industry experts from The Right Move to determine quality inputs to the model, then wrote a script to web scrape and compile the information
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Manipulated the inputs to avoid the unit roots problem, then looped through 16383 combinations of equations to extract the best linear regression model, resulting in adjusted r2 values of up to 0.70, with improvements of up to 0.65
+                  </li>
+                </ul>
+              </p>
+              <a
+                href="./projects/property-forecasting-model.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+
           <!-- SGX Screener App Project -->
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpg/SGXApp_poster.jpg"
+                src="./assets/sgx-screener-app/SGXApp_poster.jpg"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1: SGX Screener App</h3>
+              <h3 class="projects__row-content-title">Project 2: SGX Screener App</h3>
               <p class="projects__row-content-desc">
                 <ul>
                   <li class="projects__row-content-desc-list">
@@ -284,7 +319,7 @@
               -->
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2: Crop Yield Prediction</h3>
+              <h3 class="projects__row-content-title">Project 3: Crop Yield Prediction</h3>
               <p class="projects__row-content-desc">
                 <ul>
                   <li class="projects__row-content-desc-list">
@@ -311,14 +346,14 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-              src="./assets/png/FPL.png"
-              alt="Software Screenshot"
+              src="./assets/fpl-LP/FPL.png"
+              alt="FPL Logo"
               class="projects__row-img"
               loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3: Fantasy Football Linear Optimisation Project</h3>
+              <h3 class="projects__row-content-title">Project 4: Fantasy Football Linear Optimisation Project</h3>
               <p class="projects__row-content-desc">
                 Utilised JuMP and Julia to create a linear optimisation model to figure out the best possible fantasy lineup of 15 players 
                 that busy Fantasy Premier League enthusiasts could possibly create in the 2020/2021 season, 
@@ -337,14 +372,14 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpg/risk-return.jpg"
+                src="./assets/fsm-funds-screener/risk-return.jpg"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 4: FundSuperMart Funds Screener</h3>
+              <h3 class="projects__row-content-title">Project 5: FundSuperMart Funds Screener</h3>
               <p class="projects__row-content-desc">
                 <ul>
                   <li class="projects__row-content-desc-list">
