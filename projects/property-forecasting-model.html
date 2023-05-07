@@ -115,7 +115,133 @@
               />
           </div>
           <div class="project-details__content-main">
-            <div class="project-details__tools-used">
+            
+            <!-- Project Description -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Description</h3>
+              <p class="project-details__desc-para">
+                Property buyers often have to use various factors to determine which property to buy/invest in. There is also no certainty if the price of the property will increase in the next few years.
+              </p>
+            </div>
+            
+            <!-- Objectives -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Objectives</h3>
+              <p class="project-details__desc-para">
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    Come up with a model to predict property prices, backed by data
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Identifying factors that affects the prices of property
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Predict future prices accurately, up to 10 years
+                  </li>
+                </ul>
+              </p>
+            </div>
+
+            <!-- Data Collection -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Objectives</h3>
+              <p class="project-details__desc-para">
+                <ol type="1">
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    Identifying Variables: PSF, PPI, Volume, MRT, Schools, Age, Covid
+                  </li>
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    webscraping.ipyn: webscrape property transaction data from Edgeprop
+                  </li>
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    MRT and school scrape.ipyn, onemap scraper.ipyn: webscrape MRT and school data from OneMap
+                  </li>
+                </ol>
+              </p>
+            </div>
+
+            <!-- Data Cleaning -->
+            <div class="project-details__desc">
+            <h3 class="project-details__content-title">Data Cleaning</h3>
+            <p class="project-details__desc-para">
+              ModelDB grp by.xlsx in Raw Data folder
+            </p>
+            </div>
+
+            <!-- Modelling -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Modelling</h3>
+              <p class="project-details__desc-para">
+                Iterative process looping through:
+                <ol type="1">
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    Run linear regression on possible models
+                  </li>
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    Extract best model (using adjusted r^2)
+                  </li>
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    Examine residual plots
+                  </li>
+                  <li class="projects__row-content-desc-list" style="list-style-type: decimal;">
+                    Investigate variations of variables
+                  </li>
+                </ol>
+              </p>
+            </div>
+
+            <!-- Results -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results</h3>
+              <img src="../assets/property-forecasting-model/results.png" width="100%" alt="results">
+            </div>
+            
+            <!-- Assumptions -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Assumptions</h3>
+              <p class="project-details__desc-para">
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    Near MRT" defined to be within 350m from any station
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Transactions between 2020 and 2022 labelled as Covid
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Tao Nan School and Kong Hwa School classified as "Good" schools in the region
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Latest average PSF assumed for quarters without transactions
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Average PPI growth rate is assumed constant when forecasting
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Non-drastic change in behaviour by seller
+                  </li>
+                </ul>
+              </p>
+            </div>
+
+            <!-- Limitations -->
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Limitations</h3>
+              <p class="project-details__desc-para">
+                <ul>
+                  <li class="projects__row-content-desc-list">
+                    Model specific to District 15 & 99-year leasehold
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Dataset limited by PPI being published quarterly; data had to be grouped quarterly
+                  </li>
+                  <li class="projects__row-content-desc-list">
+                    Unit specific variables (i.e. bedroom size, level, window direction) not considered due to nature of data grouping
+                  </li>
+                </ul>
+              </p>
+            </div>
+
+            <div class="project-details__desc">
               <h3 class="project-details__content-title">Report</h3>
               <p class="project-details__desc-para">
                 <a class="project-details__content-link" href="../assets/property-forecasting-model/Final report.pdf" target="_blank"> View full report here </a>
@@ -129,6 +255,7 @@
                 <a class="project-details__content-link" href="../assets/property-forecasting-model/Final presentation.pdf" target="_blank"> View final presentation here </a>
               </p>
             </div>
+
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
